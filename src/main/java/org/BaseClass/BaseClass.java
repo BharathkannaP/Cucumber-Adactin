@@ -216,9 +216,11 @@ public class BaseClass {
 	}
 	
 	// 25 jsScroll Top
-	public static void jsScrollTop(WebElement ele) {
+	public static WebElement jsScrollTop(WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true)", ele);
+		return ele;
+		
 	}
 	
 	// 26 jsScroll Bottom
@@ -420,7 +422,7 @@ public class BaseClass {
 	
 	//51 Implicit Wait (Duration.ofSeconds(seconds))
 	@SuppressWarnings("deprecation")
-	public static void wait(int sec) {
+	public static void waitimplicit(int sec) {
 		driver.manage().timeouts().implicitlyWait(sec,TimeUnit.SECONDS);
 	}
 	

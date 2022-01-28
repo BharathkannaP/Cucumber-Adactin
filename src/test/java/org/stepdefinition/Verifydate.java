@@ -1,38 +1,46 @@
 package org.stepdefinition;
 
-import static org.junit.Assert.assertSame;
-
 import org.BaseClass.BaseClass;
 import org.Pages.Search_Hotel;
 import org.Pages.Select_Hotel_Next;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
-
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class Verifydate extends BaseClass {
-	@Then("Verify that check-in-date and check-out-dates are the same as selected in search hotel form")
+	Search_Hotel search;
+	public String getcheckindate;
+	@When("Enter and get check- indate {string}")
+	public void enter_and_get_check_indate(String indate) {
+		search= new Search_Hotel();
+		WebElement locateinelement=search.getDrpdatein();
+		jsFill(indate, locateinelement);
+		getcheckindate=locateinelement.getAttribute("value");
+	}
+	public String getcheckoutdate;
+	@When("Enter and get check- outdate {string}")
+	public void enter_and_get_check_outdate(String outdate) {
+		search= new Search_Hotel();
+		WebElement locateoutelement=search.getDrpdateout();
+		jsFill(outdate, locateoutelement);
+		getcheckoutdate=locateoutelement.getAttribute("value"); 
+	}
+	@Then("Verify that check-in-date and check-out-dates are the same as selected in search hotel form.")
 	public void verify_that_check_in_date_and_check_out_dates_are_the_same_as_selected_in_search_hotel_form() {
-		Search_Hotel s;
-		Select_Hotel_Next s1;
-		//Check in
-		s=new Search_Hotel();
-		WebElement r=s.getDrpdatein();
-		System.out.println(r.getText());
+		 
+		Select_Hotel_Next select=new Select_Hotel_Next();
+		WebElement datein=select.getCheckindate();
+		String printedcheckin=datein.getAttribute("value");
+		System.out.println(datein.getAttribute("value"));
 		
-		s1=new Select_Hotel_Next();
-		WebElement r1=s1.getCheckindate();
-		System.out.println(r1.getText());
-		assertSame(r, r1);
+		select =new Select_Hotel_Next();
+		WebElement dateout=select.getCheckoutdate();
+		String printedcheckout=dateout.getAttribute("value");
+		System.out.println(dateout.getAttribute("value"));
 		
-		//Check out 
-		s=new Search_Hotel();
-		WebElement r2=s.getDrpdatein();
-		System.out.println(r2.getText());
-		
-		s1=new Select_Hotel_Next();
-		WebElement r3=s1.getCheckoutdate();
-		System.out.println(r3.getText());
-		assertSame(r2, r3);
+		Assert.assertEquals("Both are same", getcheckindate, printedcheckin);
+		Assert.assertEquals("Both are same", getcheckoutdate, printedcheckout);
 	}}
 
 

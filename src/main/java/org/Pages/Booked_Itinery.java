@@ -19,7 +19,7 @@ public class Booked_Itinery extends BaseClass {
 	@FindBy(id="search_hotel_id")
 	private WebElement btngo;
 	
-	@FindBy(xpath="//input[@value='518113']")
+	@FindBy(name="ids[]")
 	private WebElement idschcheckbox;
 	
 	@FindBy(name="cancelall")
@@ -31,8 +31,15 @@ public class Booked_Itinery extends BaseClass {
 	@FindBy(id="logout")
 	private WebElement btnitinerylogout;
 	
+	@FindBy(id="order_id_518117")
+	private WebElement orderId;
+	
 	@FindBy(id="search_result_error")
 	private WebElement searchresult;
+
+	public WebElement getOrderId() {
+		return orderId;
+	}
 
 	public WebElement getOdridsrch() {
 		return odridsrch;
@@ -64,5 +71,4 @@ public class Booked_Itinery extends BaseClass {
 	
 
 	}
-
 

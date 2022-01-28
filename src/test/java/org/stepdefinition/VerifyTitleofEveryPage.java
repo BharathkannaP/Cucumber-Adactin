@@ -24,8 +24,8 @@ public class VerifyTitleofEveryPage extends BaseClass{
 		 ddStringVisibleText(s.getDrphotels(), "Hotel Creek");
 		 ddStringVisibleText(s.getDrproomtype(), "Standard");
 		 ddStringValue(s.getDrproomnos(), "2");
-		 fill(s.getDrpdatein(),"23/01/2022");
-		 fill(s.getDrpdateout(),"21/01/2022");
+		 jsFill("25/01/2022",s.getDrpdatein());
+		 jsFill("26/01/2022",s.getDrpdateout());
 		 btnClick(s.getBtnsubmit());
 		 
 		 String SelectTitle=driver.getTitle();

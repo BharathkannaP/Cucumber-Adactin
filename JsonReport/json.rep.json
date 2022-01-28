@@ -1,0 +1,4342 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.068Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1981600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 84900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To validate enter details and verify the details",
+        "description": "",
+        "id": "to-check-whether-the-booked-itinerary-reflects-the-correct-information-in-line-with-the-booking;to-validate-enter-details-and-verify-the-details",
+        "after": [
+          {
+            "result": {
+              "duration": 58100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6521600,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "Choose location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35723500,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31213900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8359200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose no-ofrooms \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1928400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1442800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter check-outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2620000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1478600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1414300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1447500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7866300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "fill the details and click on Book now button",
+            "match": {
+              "location": "EditBookedItinerary.fill_the_details_and_click_on_Book_now_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bk",
+                  "kanna",
+                  "Riga",
+                  "1234567891236547",
+                  "American Express",
+                  "January",
+                  "2022",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2480800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on My itinerary button",
+            "match": {
+              "location": "BookedItineraryInfo.Click_on_My_itinerary_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1698100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verify that the details \"8EOOGN71MT\" are reflected correctly as per the booking",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8EOOGN71MT\"",
+                  "offset": 24
+                }
+              ],
+              "location": "BookedItineraryInfo.verify_that_the_details_are_reflected_correctly_as_per_the_booking(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To check whether the booked itinerary reflects the correct information in line with the booking",
+    "description": "",
+    "id": "to-check-whether-the-booked-itinerary-reflects-the-correct-information-in-line-with-the-booking",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BookedItineraryInfo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 56100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 48500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate by sending invalid date in check-in and valid check-out date",
+        "description": "",
+        "id": "to-verify-whether-the-check-out-date-field-accepts-a-later-date-than-check-in-date.;to-validate-by-sending-invalid-date-in-check-in-and-valid-check-out-date",
+        "after": [
+          {
+            "result": {
+              "duration": 165200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2122600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Choose location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1277100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44113800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1737800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4169300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter check-indate\"27/01/2022\" later than the check-outdate\"25/01/2022\" field as today + seven date and checkout today+five date and click search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"25/01/2022\"",
+                  "offset": 59
+                }
+              ],
+              "location": "Bookingfeature.enter_check_indate_later_than_the_check_outdate_field_as_today_seven_date_and_checkout_today_five_date_and_click_search(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1678900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify that system gives an error saying check-indate should not be later than checkout-date",
+            "match": {
+              "location": "Bookingfeature.verify_that_system_gives_an_error_saying_check_indate_should_not_be_later_than_checkout_date()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether the check-out date field accepts a later date than check-in date.",
+    "description": "",
+    "id": "to-verify-whether-the-check-out-date-field-accepts-a-later-date-than-check-in-date.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Bookingfeature.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 65900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 95800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 48300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Cancel order and verify",
+        "description": "",
+        "id": "to-verify-that-the-order-gets-cancelled-after-click-on-cancel-order-number-link;cancel-order-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 54800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1409700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "fill the details and book the Hotel and note generated order no",
+            "match": {
+              "location": "CancelOrder.fill_the_details_and_book_the_Hotel_and_note_generated_order_no()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1346300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click on Booked Itinerary",
+            "match": {
+              "location": "CancelOrder.click_on_Booked_Itinerary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1224100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Search for order number booked",
+            "match": {
+              "location": "CancelOrder.search_for_order_number_booked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1651800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on Cancel Order Number",
+            "match": {
+              "location": "CancelOrder.click_on_Cancel_Order_Number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1540500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click Yes on pop-up which asks where to cancel order or not",
+            "match": {
+              "location": "CancelOrder.click_Yes_on_pop_up_which_asks_where_to_cancel_order_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1348700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify that order number is cancelled and now longer exists in Booked Itinerary page",
+            "match": {
+              "location": "CancelOrder.verify_that_order_number_is_cancelled_and_now_longer_exists_in_Booked_Itinerary_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify that the order gets cancelled after click on Cancel order number link",
+    "description": "",
+    "id": "to-verify-that-the-order-gets-cancelled-after-click-on-cancel-order-number-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CancelOrder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.521Z",
+        "before": [
+          {
+            "result": {
+              "duration": 58600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 59600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Data should be same as selected in previous screen",
+        "description": "",
+        "id": "to-check-hotel-name--location--room-type--total-day--price-per;data-should-be-same-as-selected-in-previous-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 53700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1532400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Select location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "DataSamePrevWindow.select_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1289700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Select hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "DataSamePrevWindow.select_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1289800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Select roomtype \"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 16
+                }
+              ],
+              "location": "DataSamePrevWindow.select_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1238800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "select no-ofrooms \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 18
+                }
+              ],
+              "location": "DataSamePrevWindow.select_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2014900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3330400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check-outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4630700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1884900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1493700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1775000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1241300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verify the total price excl GST is being calculated as price-pernight*no-ofrooms*no-ofdays",
+            "match": {
+              "location": "VerifyPrice.verify_the_total_price_excl_GST_is_being_calculated_as_price_pernight_no_ofrooms_no_ofdays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1335400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Data should be same as selected in previous screen",
+            "match": {
+              "location": "DataSamePrevWindow.data_should_be_same_as_selected_in_previous_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check Hotel name, Location, room type, Total Day, price per",
+    "description": "",
+    "id": "to-check-hotel-name--location--room-type--total-day--price-per",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DataSamePrevWindow.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.593Z",
+        "before": [
+          {
+            "result": {
+              "duration": 55400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Booked itinerary and check details",
+        "description": "",
+        "id": "to-verify-whether-the-booked-itinerary-details-are-not-editable.;verify-booked-itinerary-and-check-details",
+        "after": [
+          {
+            "result": {
+              "duration": 69400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1306800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Melbourne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1338900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1417300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1435400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1373700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter check-outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2185800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1402100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1355800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1268600,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7715300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "fill the details and click on Book now button",
+            "match": {
+              "location": "EditBookedItinerary.fill_the_details_and_click_on_Book_now_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bk",
+                  "kanna",
+                  "Riga",
+                  "1234567891236547",
+                  "American Express",
+                  "January",
+                  "2022",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1295800,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click on My itinerary button",
+            "match": {
+              "location": "BookedItineraryInfo.Click_on_My_itinerary_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2803900,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Verify that the details \"12345678\" are not editable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 24
+                }
+              ],
+              "location": "EditBookedItinerary.verify_that_the_details_are_not_editable(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether the booked itinerary details are not editable.",
+    "description": "",
+    "id": "to-verify-whether-the-booked-itinerary-details-are-not-editable.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/EditBookedItinerary.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.692Z",
+        "before": [
+          {
+            "result": {
+              "duration": 51000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To validate the positive and negative combinations",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-adactinhotel-application;to-validate-the-positive-and-negative-combinations;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 54700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1559300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "To pass the data in \"barathkanna\"username txtbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"barathkanna\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_username_txtbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4593200,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "To pass the data in \"12345678\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2215700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks the login button",
+            "match": {
+              "location": "logindef.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1223500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be in Search hotel page",
+            "match": {
+              "location": "logindef.user_should_be_in_Search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-28T14:07:30.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 43700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 400600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 77800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To validate the positive and negative combinations",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-adactinhotel-application;to-validate-the-positive-and-negative-combinations;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 49900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2306700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "To pass the data in \"barathkanna\"username txtbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"barathkanna\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_username_txtbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1305500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "To pass the data in \"bkkkyhjh\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bkkkyhjh\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1147300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks the login button",
+            "match": {
+              "location": "logindef.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be in Search hotel page",
+            "match": {
+              "location": "logindef.user_should_be_in_Search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-28T14:07:30.783Z",
+        "before": [
+          {
+            "result": {
+              "duration": 53200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 604300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 75600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate the positive and negative combinations",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-adactinhotel-application;to-validate-the-positive-and-negative-combinations;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 43000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1350700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "To pass the data in \"12kanna\"username txtbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12kanna\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_username_txtbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1605300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "To pass the data in \"12345678\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1919900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks the login button",
+            "match": {
+              "location": "logindef.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1200500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be in Search hotel page",
+            "match": {
+              "location": "logindef.user_should_be_in_Search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-28T14:07:30.809Z",
+        "before": [
+          {
+            "result": {
+              "duration": 47300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate the positive and negative combinations",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-adactinhotel-application;to-validate-the-positive-and-negative-combinations;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 137200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2096600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "To pass the data in \"12kanna\"username txtbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12kanna\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_username_txtbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1523700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "To pass the data in \"bkkkyhjhsja\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bkkkyhjhsja\"",
+                  "offset": 20
+                }
+              ],
+              "location": "logindef.to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1198000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks the login button",
+            "match": {
+              "location": "logindef.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be in Search hotel page",
+            "match": {
+              "location": "logindef.user_should_be_in_Search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of Adactinhotel application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-adactinhotel-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginFeature.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 59400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To check search functionality enter order query and verify the details",
+        "description": "",
+        "id": "to-check-whether-search-order-id�-query-is-working-and-displaying-the-relevant-details;to-check-search-functionality-enter-order-query-and-verify-the-details",
+        "after": [
+          {
+            "result": {
+              "duration": 84800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1254400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click on Booked Itinerary",
+            "match": {
+              "location": "CancelOrder.click_on_Booked_Itinerary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1252200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter the orderid\"1T6HBM06YF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1T6HBM06YF\"",
+                  "offset": 17
+                }
+              ],
+              "location": "OrderidQuery.enter_the_orderid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1253300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Verify that the relevant details are displayed",
+            "match": {
+              "location": "OrderidQuery.verify_that_the_relevant_details_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check whether search order id� query is working and displaying the relevant details",
+    "description": "",
+    "id": "to-check-whether-search-order-id�-query-is-working-and-displaying-the-relevant-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/OrderidQuery.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.861Z",
+        "before": [
+          {
+            "result": {
+              "duration": 51400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify ORDER no should be generated",
+        "description": "",
+        "id": "verify-order-number-is-generated-in-booking-confirmation-page;verify-order-no-should-be-generated",
+        "after": [
+          {
+            "result": {
+              "duration": 46600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1276000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Melbourne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1396600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1175700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1138000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1182500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2365200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter check-outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1315000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1999000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4680000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "fill the details and verify orderno. is generated",
+            "match": {
+              "location": "OrdernoGenerated.fill_the_details_and_verify_orderno_is_generated(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bk",
+                  "kanna",
+                  "Riga",
+                  "1234567891236547",
+                  "American Express",
+                  "January",
+                  "2022",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Order number is generated in booking confirmation page",
+    "description": "",
+    "id": "verify-order-number-is-generated-in-booking-confirmation-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/OrdernotGenerated.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 46200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate by select location and verify",
+        "description": "",
+        "id": "to-verify-whether-locations-in-select-hotel-page-are-displayed-according-to-the-location-selected-in-search-hotel;to-validate-by-select-location-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 45900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1222600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Select and get location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyLocation.select_and_get_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1337700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2276800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "select roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "SelectHotelisdisplayed.select_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1263800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter and get check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Verifydate.enter_and_get_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter and get check- outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Verifydate.enter_and_get_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1774600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1180100,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Verify that hotel displayed is the same as selected in search Hotel form",
+            "match": {
+              "location": "SelectHotelisdisplayed.verify_that_hotel_displayed_is_the_same_as_selected_in_search_Hotel_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel",
+    "description": "",
+    "id": "to-verify-whether-locations-in-select-hotel-page-are-displayed-according-to-the-location-selected-in-search-hotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SelectHotelisdiplayed.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:30.977Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify final billed price and Total price",
+        "description": "",
+        "id": "to-check-correct-final-billed-price-is-total-price-+-10%-total-price-in-book-a-hotel-page;verify-final-billed-price-and-total-price",
+        "after": [
+          {
+            "result": {
+              "duration": 44800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1200400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Melbourne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1513600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2486800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2279700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1368400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1168000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter check-outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1208500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1352100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1179000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Verify the total price excl GST is being calculated as price-pernight*no-ofrooms*no-ofdays",
+            "match": {
+              "location": "VerifyPrice.verify_the_total_price_excl_GST_is_being_calculated_as_price_pernight_no_ofrooms_no_ofdays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1080500,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Takescreenshot",
+            "match": {
+              "location": "TotalBill.takescreenshot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check correct Final billed price is Total Price + 10% Total price in Book a Hotel page",
+    "description": "",
+    "id": "to-check-correct-final-billed-price-is-total-price-+-10%-total-price-in-book-a-hotel-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TotalBill.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.019Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 39500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify data entered and displayed",
+        "description": "",
+        "id": "to-verify-whether-the-data-displayed-is-same-as-the-selected-data-in-book-hotel-page;verify-data-entered-and-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 587700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1206000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Choose location \"Melbourne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1190600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1169900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose no-ofrooms \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1646100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2200200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check-outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1199900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1137600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4726400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "fill the details and verify orderno. is generated",
+            "match": {
+              "location": "OrdernoGenerated.fill_the_details_and_verify_orderno_is_generated(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bk",
+                  "kanna",
+                  "Riga",
+                  "1234567891236547",
+                  "American Express",
+                  "January",
+                  "2022",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2794100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click on My itinerary button",
+            "match": {
+              "location": "BookedItineraryInfo.Click_on_My_itinerary_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1243700,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter the orderid\"1T6HBM06YF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1T6HBM06YF\"",
+                  "offset": 17
+                }
+              ],
+              "location": "OrderidQuery.enter_the_orderid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Verify that the relevant details are displayed",
+            "match": {
+              "location": "OrderidQuery.verify_that_the_relevant_details_are_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1178300,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Takescreenshot",
+            "match": {
+              "location": "TotalBill.takescreenshot()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether the data displayed is same as the selected data in Book hotel page",
+    "description": "",
+    "id": "to-verify-whether-the-data-displayed-is-same-as-the-selected-data-in-book-hotel-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyData.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.071Z",
+        "before": [
+          {
+            "result": {
+              "duration": 51500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify locations in Select Hotel page and location selected in Search Hotel are same",
+        "description": "",
+        "id": "to-verify-whether-locations-in-select-hotel-page-are-displayed-according-to-the-location-selected-in-search-hotel;verify-locations-in-select-hotel-page-and-location-selected-in-search-hotel-are-same",
+        "after": [
+          {
+            "result": {
+              "duration": 76100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1244300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Select and get location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyLocation.select_and_get_location(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1192300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1180500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1169000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1133400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check- indate \"25/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter check-outdate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1747700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1190100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verify locations in Select Hotel page and location selected in Search Hotel are same",
+            "match": {
+              "location": "VerifyLocation.verify_locations_in_Select_Hotel_page_and_location_selected_in_Search_Hotel_are_same()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel",
+    "description": "",
+    "id": "to-verify-whether-locations-in-select-hotel-page-are-displayed-according-to-the-location-selected-in-search-hotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyLocation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 47000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate by details and logout",
+        "description": "",
+        "id": "to-verify-when-pressed--logout-button-logs-out-from-the-application.;to-validate-by-details-and-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 53700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1619400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1526200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1130600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1129100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check- indate \"25/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1120600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter check-outdate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2418300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1053800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "enter the details and click on book now",
+            "match": {
+              "location": "VerifyLogout.enter_the_details_and_click_on_book_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1221600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "check the details, click on logout and verify if we have logged out from the application",
+            "match": {
+              "location": "VerifyLogout.check_the_details_click_on_logout_and_verify_if_we_have_logged_out_from_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify when pressed, logout button logs out from the application.",
+    "description": "",
+    "id": "to-verify-when-pressed--logout-button-logs-out-from-the-application.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyLogout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 51700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate by select no.of tooms and verify",
+        "description": "",
+        "id": "to-verify-whether-no.-of-rooms-entry-in-select-hotel-page-is-same-as-the-number-of-rooms-selected-in-search-hotel-page;to-validate-by-select-no.of-tooms-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 54100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1377700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1138100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1197000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2015200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Select no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyNoofRooms.select_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1077200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1091600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Verify that no. of rooms reflected according to the no. of rooms selected in search hotel page",
+            "match": {
+              "location": "VerifyNoofRooms.verify_that_no_of_rooms_reflected_according_to_the_no_of_rooms_selected_in_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether no. of rooms entry in Select Hotel page is same as the Number of rooms selected in search hotel page",
+    "description": "",
+    "id": "to-verify-whether-no.-of-rooms-entry-in-select-hotel-page-is-same-as-the-number-of-rooms-selected-in-search-hotel-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyNoofRooms.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.260Z",
+        "before": [
+          {
+            "result": {
+              "duration": 50500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 49600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 44300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate by select Room Type and verify",
+        "description": "",
+        "id": "to-verify-whether-the-total-price-(excl.gst-)-is-calculated-as-�price-per-night-*-no.-of-nights*-no-of-rooms�.;to-validate-by-select-room-type-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 53300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2470900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1109000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter check- indate \"25/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.Enter_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1800200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter check-outdate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyLocation.enter_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44929900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1875000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Verify the total price excl GST is being calculated as price-pernight*no-ofrooms*no-ofdays",
+            "match": {
+              "location": "VerifyPrice.verify_the_total_price_excl_GST_is_being_calculated_as_price_pernight_no_ofrooms_no_ofdays()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether the total price (excl.GST ) is calculated as �price per night * no. of nights* no of rooms�.",
+    "description": "",
+    "id": "to-verify-whether-the-total-price-(excl.gst-)-is-calculated-as-�price-per-night-*-no.-of-nights*-no-of-rooms�.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyPrice.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.348Z",
+        "before": [
+          {
+            "result": {
+              "duration": 80200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 86300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate by select Room Type and verify",
+        "description": "",
+        "id": "to-verify-whether-room-type-in-select-hotel-page-is-same-as-room-type-selected-in-search-hotel-page;to-validate-by-select-room-type-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 98000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1174000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Choose location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                }
+              ],
+              "location": "VerifyRoomType.choose_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2064300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1137100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5289000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1281700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click Continue button",
+            "match": {
+              "location": "VerifyRoomType.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Verify that room type reflected is the same as selected in search hotel page",
+            "match": {
+              "location": "VerifyRoomType.verify_that_room_type_reflected_is_the_same_as_selected_in_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify whether Room Type in Select Hotel page is same as Room type selected in search hotel page",
+    "description": "",
+    "id": "to-verify-whether-room-type-in-select-hotel-page-is-same-as-room-type-selected-in-search-hotel-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyRoomType.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.450Z",
+        "before": [
+          {
+            "result": {
+              "duration": 46900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 30900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To verify get Every page Title",
+        "description": "",
+        "id": "to-verify-title-of-every-page-reflects-what-the-page-objective-is.-for-example-title-of-search-hotel-page-should-have-�search-hotel�;to-verify-get-every-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 40200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Verify that title of each page is the same as the page objective",
+            "match": {
+              "location": "VerifyTitleofEveryPage.verify_that_title_of_each_page_is_the_same_as_the_page_objective()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1027900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click on Search hotel option and verify whether application directs to search hotel form",
+            "match": {
+              "location": "VerifyTitleofEveryPage.click_on_Search_hotel_option_and_verify_whether_application_directs_to_search_hotel_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1017200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on booked itinerary button and verify that application directs to booked itinerary form",
+            "match": {
+              "location": "VerifyTitleofEveryPage.click_on_booked_itinerary_button_and_verify_that_application_directs_to_booked_itinerary_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify Title of every Page reflects what the page objective is. For example Title of Search Hotel page should have �Search Hotel�",
+    "description": "",
+    "id": "to-verify-title-of-every-page-reflects-what-the-page-objective-is.-for-example-title-of-search-hotel-page-should-have-�search-hotel�",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VerifyTitleofEveryPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-28T14:07:31.467Z",
+        "before": [
+          {
+            "result": {
+              "duration": 46200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.chromeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.maximizeWindow()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.Urllaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify date in Select Hotel page and location selected in Search Hotel are same",
+        "description": "",
+        "id": "to-verify-date-and-check-outdate-are-being-displayed-in-select-hotel-page-according-to-the-dates-selected-in-search-hotel;verify-date-in-select-hotel-page-and-location-selected-in-search-hotel-are-same",
+        "after": [
+          {
+            "result": {
+              "duration": 47400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1220700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Select and get location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyLocation.select_and_get_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1946200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Choose hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 13
+                }
+              ],
+              "location": "VerifyRoomType.choose_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1168900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Choose roomtype\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyRoomType.choose_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2101100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Choose no-ofrooms \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 18
+                }
+              ],
+              "location": "VerifyRoomType.choose_no_ofrooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2139000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter and get check- indate \"26/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Verifydate.enter_and_get_check_indate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter and get check- outdate \"27/01/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"27/01/2022\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Verifydate.enter_and_get_check_outdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select No of-adults\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 19
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_adults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select No of-children\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 21
+                }
+              ],
+              "location": "VerifyLocation.select_No_of_children(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1130800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Search button",
+            "match": {
+              "location": "VerifyRoomType.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1934400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verify that check-in-date and check-out-dates are the same as selected in search hotel form.",
+            "match": {
+              "location": "Verifydate.verify_that_check_in_date_and_check_out_dates_are_the_same_as_selected_in_search_hotel_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify date and Check Outdate are being displayed in Select Hotel Page according to the dates selected in search Hotel",
+    "description": "",
+    "id": "to-verify-date-and-check-outdate-are-being-displayed-in-select-hotel-page-according-to-the-dates-selected-in-search-hotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Verifydate.feature",
+    "tags": []
+  }
+]

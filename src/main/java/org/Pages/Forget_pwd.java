@@ -22,4 +22,3 @@ public class Forget_pwd extends BaseClass {
 	private WebElement bcktologin;
 }
 
-

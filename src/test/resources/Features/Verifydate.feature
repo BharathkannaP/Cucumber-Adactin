@@ -1,16 +1,14 @@
-
-Feature:  To verify whether no. of rooms entry in Select Hotel page is same as the Number of rooms selected in search hotel page
-  
-  Scenario:  To validate by enter no.of rooms and verify
-    Given Launch hotel reservation application
-    When Login to the application using username and password 
-    And Select location as Sydney
-    And Select hotel as hotel creek
-		And Select room type as standard
-		And Select no-ofrooms as oneday
-   	And Enter check-in date as today  
-	  And Enter check-out date as today+one date
- 		And Select No of-adults as two
- 		And Select No of-children as zero 
- 		Then Click on Search button
- 		Then Verify that check-in-date and check-out-dates are the same as selected in search hotel form
+Feature: To verify date and Check Outdate are being displayed in Select Hotel Page according to the dates selected in search Hotel
+ 
+  Scenario:  Verify date in Select Hotel page and location selected in Search Hotel are same
+		
+		When Select and get location "Sydney"
+		And Choose hotel "Hotel Creek"
+		And Choose roomtype"Standard"
+		And Choose no-ofrooms "1 - One"
+		And Enter and get check- indate "26/01/2022"  
+	  And Enter and get check- outdate "27/01/2022"
+ 		And Select No of-adults"1 - One"
+ 		And Select No of-children"0 - None" 
+ 		And click Search button
+ 		Then Verify that check-in-date and check-out-dates are the same as selected in search hotel form.

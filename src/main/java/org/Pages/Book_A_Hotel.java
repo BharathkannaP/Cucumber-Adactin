@@ -60,9 +60,30 @@ public class Book_A_Hotel extends BaseClass {
 	@FindBy(id="final_price_dis")
 	private WebElement fianalprice;
 	
+	@FindBy(id="hotel_name_dis")
+	private WebElement hotelName;
+	
+	@FindBy(id="location_dis")
+	private WebElement location;
+	
+	@FindBy(id="room_type_dis")
+	private WebElement roomtype;
+	
+	public WebElement getRoomtype() {
+		return roomtype;
+	}
+
+	public WebElement getHotelName() {
+	return hotelName;
+	}
+
+	public WebElement getLocation() {
+		return location;
+	}
+
 	public WebElement getGst() {
 	return gst;
-	}
+		}
 
 	public WebElement getFianalprice() {
 		return fianalprice;
