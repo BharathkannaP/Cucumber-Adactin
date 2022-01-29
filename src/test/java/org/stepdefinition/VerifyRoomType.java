@@ -16,7 +16,7 @@ public class VerifyRoomType extends BaseClass {
 	@When("Choose location {string}")
 	public void choose_location(String location) {
 		search= new Search_Hotel();
-		   ddStringVisibleText(search.getDrplocation(), location);
+		ddStringVisibleText(search.getDrplocation(), location);
 	}
 
 	@When("Choose hotel {string}")

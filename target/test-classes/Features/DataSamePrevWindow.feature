@@ -1,7 +1,8 @@
 Feature: To check Hotel name, Location, room type, Total Day, price per
   
   Scenario: Data should be same as selected in previous screen
-	When Select location "Sydney"
+  When Login to the application username"bharathkanna" and password"12345678"
+	And Select location "Sydney"
 	And Select hotel "Hotel Creek"
 	And Select roomtype "Standard"
 	And select no-ofrooms "2 - Two"

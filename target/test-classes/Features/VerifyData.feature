@@ -1,7 +1,8 @@
 Feature: To verify whether the data displayed is same as the selected data in Book hotel page
 
   Scenario: Verify data entered and displayed
-    When Choose location "Melbourne"
+ 		When Login to the application username"bharathkanna" and password"12345678"
+    And Choose location "Melbourne"
     And Choose hotel "Hotel Creek"
     And Choose roomtype"Standard"
     And Choose no-ofrooms "2 - Two"

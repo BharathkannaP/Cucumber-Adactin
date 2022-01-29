@@ -1,5 +1,6 @@
 Feature: To check whether the booked itinerary reflects the correct information in line with the booking
 Scenario: To validate enter details and verify the details
+	When Login to the application username"bharathkanna" and password"12345678"
 	And Choose location "Sydney"
 	And Choose hotel "Hotel Creek"
 	And Choose roomtype"Standard"

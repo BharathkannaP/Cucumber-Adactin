@@ -1,8 +1,8 @@
 Feature: To verify when pressed, logout button logs out from the application.
 
 Scenario:  To validate by details and logout
-
-	When Choose location "Sydney"
+	When Login to the application username"bharathkanna" and password"12345678"
+	And Choose location "Sydney"
 	And Choose hotel "Hotel Creek"
 	And Choose roomtype"Standard"
 	And Choose no-ofrooms "1 - One"

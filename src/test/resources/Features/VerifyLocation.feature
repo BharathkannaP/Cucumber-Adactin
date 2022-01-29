@@ -1,7 +1,7 @@
 Feature: To verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel
   
   Scenario: Verify locations in Select Hotel page and location selected in Search Hotel are same
-
+		When Login to the application username"bharathkanna" and password"12345678"
 		And Select and get location "Sydney"
 		And Choose hotel "Hotel Creek"
 		And Choose roomtype"Standard"

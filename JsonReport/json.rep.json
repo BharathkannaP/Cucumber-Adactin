@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.068Z",
+        "start_timestamp": "2022-01-29T20:38:52.599Z",
         "before": [
           {
             "result": {
-              "duration": 1981600,
-              "status": "skipped"
+              "duration": 20200743700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -16,8 +16,8 @@
           },
           {
             "result": {
-              "duration": 84900,
-              "status": "skipped"
+              "duration": 542138000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -25,20 +25,11 @@
           },
           {
             "result": {
-              "duration": 56000,
-              "status": "skipped"
+              "duration": 5498048800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 50800,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -49,8 +40,8 @@
         "after": [
           {
             "result": {
-              "duration": 58100,
-              "status": "skipped"
+              "duration": 1109655900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -62,10 +53,32 @@
         "steps": [
           {
             "result": {
-              "duration": 6521600,
-              "status": "skipped"
+              "duration": 7256349200,
+              "status": "passed"
             },
             "line": 3,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 444498500,
+              "status": "passed"
+            },
+            "line": 4,
             "name": "Choose location \"Sydney\"",
             "match": {
               "arguments": [
@@ -80,10 +93,10 @@
           },
           {
             "result": {
-              "duration": 35723500,
-              "status": "skipped"
+              "duration": 284756300,
+              "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Choose hotel \"Hotel Creek\"",
             "match": {
               "arguments": [
@@ -98,10 +111,10 @@
           },
           {
             "result": {
-              "duration": 31213900,
-              "status": "skipped"
+              "duration": 1297591500,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Choose roomtype\"Standard\"",
             "match": {
               "arguments": [
@@ -116,10 +129,10 @@
           },
           {
             "result": {
-              "duration": 8359200,
-              "status": "skipped"
+              "duration": 230058600,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Choose no-ofrooms \"2 - Two\"",
             "match": {
               "arguments": [
@@ -134,10 +147,10 @@
           },
           {
             "result": {
-              "duration": 1928400,
-              "status": "skipped"
+              "duration": 67515900,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Enter check- indate \"26/01/2022\"",
             "match": {
               "arguments": [
@@ -152,10 +165,10 @@
           },
           {
             "result": {
-              "duration": 1442800,
-              "status": "skipped"
+              "duration": 64887000,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Enter check-outdate \"27/01/2022\"",
             "match": {
               "arguments": [
@@ -170,10 +183,10 @@
           },
           {
             "result": {
-              "duration": 2620000,
-              "status": "skipped"
+              "duration": 167486800,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Select No of-adults\"1 - One\"",
             "match": {
               "arguments": [
@@ -188,10 +201,10 @@
           },
           {
             "result": {
-              "duration": 1478600,
-              "status": "skipped"
+              "duration": 144408000,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Select No of-children\"0 - None\"",
             "match": {
               "arguments": [
@@ -206,10 +219,10 @@
           },
           {
             "result": {
-              "duration": 1414300,
-              "status": "skipped"
+              "duration": 2108112500,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "click Search button",
             "match": {
               "location": "VerifyRoomType.click_Search_button()"
@@ -218,10 +231,10 @@
           },
           {
             "result": {
-              "duration": 1447500,
-              "status": "skipped"
+              "duration": 1473529300,
+              "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "click Continue button",
             "match": {
               "location": "VerifyRoomType.click_Continue_button()"
@@ -230,10 +243,10 @@
           },
           {
             "result": {
-              "duration": 7866300,
-              "status": "skipped"
+              "duration": 2758139200,
+              "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "fill the details and click on Book now button",
             "match": {
               "location": "EditBookedItinerary.fill_the_details_and_click_on_Book_now_button(DataTable)"
@@ -256,10 +269,10 @@
           },
           {
             "result": {
-              "duration": 2480800,
-              "status": "skipped"
+              "duration": 9269557700,
+              "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "Click on My itinerary button",
             "match": {
               "location": "BookedItineraryInfo.Click_on_My_itinerary_button()"
@@ -268,10 +281,10 @@
           },
           {
             "result": {
-              "duration": 1698100,
-              "status": "skipped"
+              "duration": 2505477800,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "verify that the details \"8EOOGN71MT\" are reflected correctly as per the booking",
             "match": {
               "arguments": [
@@ -298,12 +311,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.387Z",
+        "start_timestamp": "2022-01-29T20:39:48.682Z",
         "before": [
           {
             "result": {
-              "duration": 56100,
-              "status": "skipped"
+              "duration": 6001804700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -311,8 +324,8 @@
           },
           {
             "result": {
-              "duration": 73500,
-              "status": "skipped"
+              "duration": 306736900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -320,20 +333,11 @@
           },
           {
             "result": {
-              "duration": 48500,
-              "status": "skipped"
+              "duration": 8775743900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 46000,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -344,8 +348,8 @@
         "after": [
           {
             "result": {
-              "duration": 165200,
-              "status": "skipped"
+              "duration": 760186100,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -357,10 +361,32 @@
         "steps": [
           {
             "result": {
-              "duration": 2122600,
-              "status": "skipped"
+              "duration": 4133302300,
+              "status": "passed"
             },
             "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261595500,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "Choose location \"Sydney\"",
             "match": {
               "arguments": [
@@ -371,14 +397,14 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1277100,
-              "status": "skipped"
+              "duration": 228890300,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
             "match": {
               "arguments": [
@@ -393,10 +419,10 @@
           },
           {
             "result": {
-              "duration": 44113800,
-              "status": "skipped"
+              "duration": 282488900,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Choose roomtype\"Standard\"",
             "match": {
               "arguments": [
@@ -411,10 +437,10 @@
           },
           {
             "result": {
-              "duration": 1737800,
-              "status": "skipped"
+              "duration": 390579400,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Choose no-ofrooms \"1 - One\"",
             "match": {
               "arguments": [
@@ -429,10 +455,10 @@
           },
           {
             "result": {
-              "duration": 4169300,
-              "status": "skipped"
+              "duration": 580960100,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Enter check-indate\"27/01/2022\" later than the check-outdate\"25/01/2022\" field as today + seven date and checkout today+five date and click search",
             "match": {
               "arguments": [
@@ -451,10 +477,10 @@
           },
           {
             "result": {
-              "duration": 1678900,
-              "status": "skipped"
+              "duration": 868756000,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Verify that system gives an error saying check-indate should not be later than checkout-date",
             "match": {
               "location": "Bookingfeature.verify_that_system_gives_an_error_saying_check_indate_should_not_be_later_than_checkout_date()"
@@ -475,12 +501,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.477Z",
+        "start_timestamp": "2022-01-29T20:40:11.328Z",
         "before": [
           {
             "result": {
-              "duration": 65900,
-              "status": "skipped"
+              "duration": 6372776000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -488,8 +514,8 @@
           },
           {
             "result": {
-              "duration": 51900,
-              "status": "skipped"
+              "duration": 390522300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -497,20 +523,11 @@
           },
           {
             "result": {
-              "duration": 95800,
-              "status": "skipped"
+              "duration": 5393497300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 48300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -521,8 +538,8 @@
         "after": [
           {
             "result": {
-              "duration": 54800,
-              "status": "skipped"
+              "duration": 976443600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -534,10 +551,32 @@
         "steps": [
           {
             "result": {
-              "duration": 1409700,
-              "status": "skipped"
+              "duration": 3836945700,
+              "status": "passed"
             },
             "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14409030900,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "fill the details and book the Hotel and note generated order no",
             "match": {
               "location": "CancelOrder.fill_the_details_and_book_the_Hotel_and_note_generated_order_no()"
@@ -546,10 +585,10 @@
           },
           {
             "result": {
-              "duration": 1346300,
-              "status": "skipped"
+              "duration": 5715230500,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Click on Booked Itinerary",
             "match": {
               "location": "CancelOrder.click_on_Booked_Itinerary()"
@@ -558,10 +597,10 @@
           },
           {
             "result": {
-              "duration": 1224100,
-              "status": "skipped"
+              "duration": 2155391600,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Search for order number booked",
             "match": {
               "location": "CancelOrder.search_for_order_number_booked()"
@@ -570,10 +609,10 @@
           },
           {
             "result": {
-              "duration": 1651800,
-              "status": "skipped"
+              "duration": 1151553500,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Click on Cancel Order Number",
             "match": {
               "location": "CancelOrder.click_on_Cancel_Order_Number()"
@@ -582,10 +621,10 @@
           },
           {
             "result": {
-              "duration": 1540500,
-              "status": "skipped"
+              "duration": 122412500,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Click Yes on pop-up which asks where to cancel order or not",
             "match": {
               "location": "CancelOrder.click_Yes_on_pop_up_which_asks_where_to_cancel_order_or_not()"
@@ -594,10 +633,10 @@
           },
           {
             "result": {
-              "duration": 1348700,
-              "status": "skipped"
+              "duration": 5339235300,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Verify that order number is cancelled and now longer exists in Booked Itinerary page",
             "match": {
               "location": "CancelOrder.verify_that_order_number_is_cancelled_and_now_longer_exists_in_Booked_Itinerary_page()"
@@ -618,12 +657,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.521Z",
+        "start_timestamp": "2022-01-29T20:40:57.220Z",
         "before": [
           {
             "result": {
-              "duration": 58600,
-              "status": "skipped"
+              "duration": 11258820900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -631,8 +670,8 @@
           },
           {
             "result": {
-              "duration": 53100,
-              "status": "skipped"
+              "duration": 234719100,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -640,20 +679,11 @@
           },
           {
             "result": {
-              "duration": 59600,
-              "status": "skipped"
+              "duration": 5325428800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 55200,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -664,8 +694,8 @@
         "after": [
           {
             "result": {
-              "duration": 53700,
-              "status": "skipped"
+              "duration": 860938000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -677,10 +707,32 @@
         "steps": [
           {
             "result": {
-              "duration": 1532400,
-              "status": "skipped"
+              "duration": 4628380000,
+              "status": "passed"
             },
             "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367891600,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "Select location \"Sydney\"",
             "match": {
               "arguments": [
@@ -691,14 +743,14 @@
               ],
               "location": "DataSamePrevWindow.select_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1289700,
-              "status": "skipped"
+              "duration": 306495500,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Select hotel \"Hotel Creek\"",
             "match": {
               "arguments": [
@@ -713,10 +765,10 @@
           },
           {
             "result": {
-              "duration": 1289800,
-              "status": "skipped"
+              "duration": 249248500,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Select roomtype \"Standard\"",
             "match": {
               "arguments": [
@@ -731,10 +783,10 @@
           },
           {
             "result": {
-              "duration": 1238800,
-              "status": "skipped"
+              "duration": 956050500,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "select no-ofrooms \"2 - Two\"",
             "match": {
               "arguments": [
@@ -749,10 +801,10 @@
           },
           {
             "result": {
-              "duration": 2014900,
-              "status": "skipped"
+              "duration": 56899400,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Enter check- indate \"26/01/2022\"",
             "match": {
               "arguments": [
@@ -767,10 +819,10 @@
           },
           {
             "result": {
-              "duration": 3330400,
-              "status": "skipped"
+              "duration": 51298600,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Enter check-outdate \"27/01/2022\"",
             "match": {
               "arguments": [
@@ -785,10 +837,10 @@
           },
           {
             "result": {
-              "duration": 4630700,
-              "status": "skipped"
+              "duration": 132719000,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Select No of-adults\"1 - One\"",
             "match": {
               "arguments": [
@@ -803,10 +855,10 @@
           },
           {
             "result": {
-              "duration": 1884900,
-              "status": "skipped"
+              "duration": 174545900,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Select No of-children\"0 - None\"",
             "match": {
               "arguments": [
@@ -821,10 +873,10 @@
           },
           {
             "result": {
-              "duration": 1493700,
-              "status": "skipped"
+              "duration": 1786549100,
+              "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "click Search button",
             "match": {
               "location": "VerifyRoomType.click_Search_button()"
@@ -833,10 +885,10 @@
           },
           {
             "result": {
-              "duration": 1775000,
-              "status": "skipped"
+              "duration": 1344411500,
+              "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "click Continue button",
             "match": {
               "location": "VerifyRoomType.click_Continue_button()"
@@ -845,10 +897,10 @@
           },
           {
             "result": {
-              "duration": 1241300,
-              "status": "skipped"
+              "duration": 299340200,
+              "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "Verify the total price excl GST is being calculated as price-pernight*no-ofrooms*no-ofdays",
             "match": {
               "location": "VerifyPrice.verify_the_total_price_excl_GST_is_being_calculated_as_price_pernight_no_ofrooms_no_ofdays()"
@@ -857,10 +909,10 @@
           },
           {
             "result": {
-              "duration": 1335400,
-              "status": "skipped"
+              "duration": 1199592600,
+              "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "Data should be same as selected in previous screen",
             "match": {
               "location": "DataSamePrevWindow.data_should_be_same_as_selected_in_previous_screen()"
@@ -881,12 +933,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.593Z",
+        "start_timestamp": "2022-01-29T20:41:26.480Z",
         "before": [
           {
             "result": {
-              "duration": 55400,
-              "status": "skipped"
+              "duration": 5837095600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -894,8 +946,8 @@
           },
           {
             "result": {
-              "duration": 52300,
-              "status": "skipped"
+              "duration": 158765400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -903,20 +955,11 @@
           },
           {
             "result": {
-              "duration": 47600,
-              "status": "skipped"
+              "duration": 6653401200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 40900,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -927,8 +970,8 @@
         "after": [
           {
             "result": {
-              "duration": 69400,
-              "status": "skipped"
+              "duration": 826545900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -940,8 +983,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1306800,
-              "status": "skipped"
+              "duration": 4601762100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432833000,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Melbourne\"",
@@ -954,12 +1019,12 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1338900,
-              "status": "skipped"
+              "duration": 212147100,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -976,8 +1041,8 @@
           },
           {
             "result": {
-              "duration": 1417300,
-              "status": "skipped"
+              "duration": 356616400,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -994,8 +1059,8 @@
           },
           {
             "result": {
-              "duration": 2156500,
-              "status": "skipped"
+              "duration": 217207800,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"2 - Two\"",
@@ -1012,8 +1077,8 @@
           },
           {
             "result": {
-              "duration": 1435400,
-              "status": "skipped"
+              "duration": 51811000,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter check- indate \"26/01/2022\"",
@@ -1030,8 +1095,8 @@
           },
           {
             "result": {
-              "duration": 1373700,
-              "status": "skipped"
+              "duration": 58622100,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter check-outdate \"27/01/2022\"",
@@ -1048,8 +1113,8 @@
           },
           {
             "result": {
-              "duration": 2185800,
-              "status": "skipped"
+              "duration": 137812700,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -1066,8 +1131,8 @@
           },
           {
             "result": {
-              "duration": 1402100,
-              "status": "skipped"
+              "duration": 134396300,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -1084,8 +1149,8 @@
           },
           {
             "result": {
-              "duration": 1355800,
-              "status": "skipped"
+              "duration": 1605196800,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -1096,8 +1161,8 @@
           },
           {
             "result": {
-              "duration": 1268600,
-              "status": "skipped"
+              "duration": 1376809400,
+              "status": "passed"
             },
             "line": 14,
             "name": "click Continue button",
@@ -1108,8 +1173,8 @@
           },
           {
             "result": {
-              "duration": 7715300,
-              "status": "skipped"
+              "duration": 2247604400,
+              "status": "passed"
             },
             "line": 15,
             "name": "fill the details and click on Book now button",
@@ -1134,8 +1199,8 @@
           },
           {
             "result": {
-              "duration": 1295800,
-              "status": "skipped"
+              "duration": 9589635900,
+              "status": "passed"
             },
             "line": 17,
             "name": "Click on My itinerary button",
@@ -1146,8 +1211,8 @@
           },
           {
             "result": {
-              "duration": 2803900,
-              "status": "skipped"
+              "duration": 1525822700,
+              "status": "passed"
             },
             "line": 18,
             "name": "Verify that the details \"12345678\" are not editable",
@@ -1176,12 +1241,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.692Z",
+        "start_timestamp": "2022-01-29T20:42:02.542Z",
         "before": [
           {
             "result": {
-              "duration": 51000,
-              "status": "skipped"
+              "duration": 6159813400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -1189,8 +1254,8 @@
           },
           {
             "result": {
-              "duration": 50300,
-              "status": "skipped"
+              "duration": 217895100,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -1198,20 +1263,11 @@
           },
           {
             "result": {
-              "duration": 55000,
-              "status": "skipped"
+              "duration": 7055737000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 41600,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -1222,8 +1278,8 @@
         "after": [
           {
             "result": {
-              "duration": 54700,
-              "status": "skipped"
+              "duration": 540777900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -1235,8 +1291,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1559300,
-              "status": "skipped"
+              "duration": 947423300,
+              "status": "passed"
             },
             "line": 4,
             "name": "To pass the data in \"barathkanna\"username txtbox",
@@ -1253,8 +1309,8 @@
           },
           {
             "result": {
-              "duration": 4593200,
-              "status": "skipped"
+              "duration": 577574300,
+              "status": "passed"
             },
             "line": 5,
             "name": "To pass the data in \"12345678\"password field",
@@ -1271,8 +1327,8 @@
           },
           {
             "result": {
-              "duration": 2215700,
-              "status": "skipped"
+              "duration": 1447026000,
+              "status": "passed"
             },
             "line": 6,
             "name": "Clicks the login button",
@@ -1283,8 +1339,8 @@
           },
           {
             "result": {
-              "duration": 1223500,
-              "status": "skipped"
+              "duration": 21930900,
+              "status": "passed"
             },
             "line": 7,
             "name": "User should be in Search hotel page",
@@ -1301,12 +1357,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-28T14:07:30.763Z",
+        "start_timestamp": "2022-01-29T20:42:19.611Z",
         "before": [
           {
             "result": {
-              "duration": 43700,
-              "status": "skipped"
+              "duration": 4849692200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -1314,8 +1370,8 @@
           },
           {
             "result": {
-              "duration": 41900,
-              "status": "skipped"
+              "duration": 511434500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -1323,20 +1379,11 @@
           },
           {
             "result": {
-              "duration": 400600,
-              "status": "skipped"
+              "duration": 7151503200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 77800,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -1347,8 +1394,8 @@
         "after": [
           {
             "result": {
-              "duration": 49900,
-              "status": "skipped"
+              "duration": 713293600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -1360,8 +1407,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2306700,
-              "status": "skipped"
+              "duration": 263531900,
+              "status": "passed"
             },
             "line": 4,
             "name": "To pass the data in \"barathkanna\"username txtbox",
@@ -1378,8 +1425,8 @@
           },
           {
             "result": {
-              "duration": 1305500,
-              "status": "skipped"
+              "duration": 474846500,
+              "status": "passed"
             },
             "line": 5,
             "name": "To pass the data in \"bkkkyhjh\"password field",
@@ -1396,8 +1443,8 @@
           },
           {
             "result": {
-              "duration": 1147300,
-              "status": "skipped"
+              "duration": 1322840400,
+              "status": "passed"
             },
             "line": 6,
             "name": "Clicks the login button",
@@ -1408,8 +1455,8 @@
           },
           {
             "result": {
-              "duration": 1177100,
-              "status": "skipped"
+              "duration": 22567600,
+              "status": "passed"
             },
             "line": 7,
             "name": "User should be in Search hotel page",
@@ -1426,12 +1473,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-28T14:07:30.783Z",
+        "start_timestamp": "2022-01-29T20:42:34.936Z",
         "before": [
           {
             "result": {
-              "duration": 53200,
-              "status": "skipped"
+              "duration": 5706941800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -1439,8 +1486,8 @@
           },
           {
             "result": {
-              "duration": 604300,
-              "status": "skipped"
+              "duration": 201853500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -1448,20 +1495,11 @@
           },
           {
             "result": {
-              "duration": 75600,
-              "status": "skipped"
+              "duration": 5786257600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 51300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -1472,8 +1510,8 @@
         "after": [
           {
             "result": {
-              "duration": 43000,
-              "status": "skipped"
+              "duration": 473274300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -1485,8 +1523,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1350700,
-              "status": "skipped"
+              "duration": 220315200,
+              "status": "passed"
             },
             "line": 4,
             "name": "To pass the data in \"12kanna\"username txtbox",
@@ -1503,8 +1541,8 @@
           },
           {
             "result": {
-              "duration": 1605300,
-              "status": "skipped"
+              "duration": 227973200,
+              "status": "passed"
             },
             "line": 5,
             "name": "To pass the data in \"12345678\"password field",
@@ -1521,8 +1559,8 @@
           },
           {
             "result": {
-              "duration": 1919900,
-              "status": "skipped"
+              "duration": 738677200,
+              "status": "passed"
             },
             "line": 6,
             "name": "Clicks the login button",
@@ -1533,8 +1571,8 @@
           },
           {
             "result": {
-              "duration": 1200500,
-              "status": "skipped"
+              "duration": 21512100,
+              "status": "passed"
             },
             "line": 7,
             "name": "User should be in Search hotel page",
@@ -1551,12 +1589,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-28T14:07:30.809Z",
+        "start_timestamp": "2022-01-29T20:42:48.331Z",
         "before": [
           {
             "result": {
-              "duration": 47300,
-              "status": "skipped"
+              "duration": 4181237900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -1564,8 +1602,8 @@
           },
           {
             "result": {
-              "duration": 45200,
-              "status": "skipped"
+              "duration": 253250700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -1573,20 +1611,11 @@
           },
           {
             "result": {
-              "duration": 46100,
-              "status": "skipped"
+              "duration": 8084113700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 38700,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -1597,8 +1626,8 @@
         "after": [
           {
             "result": {
-              "duration": 137200,
-              "status": "skipped"
+              "duration": 551950400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -1610,8 +1639,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2096600,
-              "status": "skipped"
+              "duration": 306522500,
+              "status": "passed"
             },
             "line": 4,
             "name": "To pass the data in \"12kanna\"username txtbox",
@@ -1628,8 +1657,8 @@
           },
           {
             "result": {
-              "duration": 1523700,
-              "status": "skipped"
+              "duration": 287230700,
+              "status": "passed"
             },
             "line": 5,
             "name": "To pass the data in \"bkkkyhjhsja\"password field",
@@ -1646,8 +1675,8 @@
           },
           {
             "result": {
-              "duration": 1198000,
-              "status": "skipped"
+              "duration": 839240600,
+              "status": "passed"
             },
             "line": 6,
             "name": "Clicks the login button",
@@ -1658,8 +1687,8 @@
           },
           {
             "result": {
-              "duration": 1067600,
-              "status": "skipped"
+              "duration": 18670900,
+              "status": "passed"
             },
             "line": 7,
             "name": "User should be in Search hotel page",
@@ -1681,18 +1710,27 @@
     "id": "to-validate-the-login-functionality-of-adactinhotel-application",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Features/LoginFeature.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   },
   {
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.826Z",
+        "start_timestamp": "2022-01-29T20:43:02.863Z",
         "before": [
           {
             "result": {
-              "duration": 59400,
-              "status": "skipped"
+              "duration": 4681752200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -1700,8 +1738,8 @@
           },
           {
             "result": {
-              "duration": 50900,
-              "status": "skipped"
+              "duration": 264597800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -1709,20 +1747,11 @@
           },
           {
             "result": {
-              "duration": 43900,
-              "status": "skipped"
+              "duration": 13787354200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 69800,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -1733,8 +1762,8 @@
         "after": [
           {
             "result": {
-              "duration": 84800,
-              "status": "skipped"
+              "duration": 531906400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -1746,8 +1775,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1254400,
-              "status": "skipped"
+              "duration": 6487354700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3501631900,
+              "status": "passed"
             },
             "line": 5,
             "name": "Click on Booked Itinerary",
@@ -1758,8 +1809,8 @@
           },
           {
             "result": {
-              "duration": 1252200,
-              "status": "skipped"
+              "duration": 2235776200,
+              "status": "passed"
             },
             "line": 6,
             "name": "Enter the orderid\"1T6HBM06YF\"",
@@ -1776,8 +1827,8 @@
           },
           {
             "result": {
-              "duration": 1253300,
-              "status": "skipped"
+              "duration": 150578200,
+              "status": "passed"
             },
             "line": 7,
             "name": "Verify that the relevant details are displayed",
@@ -1800,12 +1851,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.861Z",
+        "start_timestamp": "2022-01-29T20:43:34.551Z",
         "before": [
           {
             "result": {
-              "duration": 51400,
-              "status": "skipped"
+              "duration": 4562988000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -1813,8 +1864,8 @@
           },
           {
             "result": {
-              "duration": 47600,
-              "status": "skipped"
+              "duration": 182925200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -1822,20 +1873,11 @@
           },
           {
             "result": {
-              "duration": 47300,
-              "status": "skipped"
+              "duration": 9701219200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 45200,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -1846,8 +1888,8 @@
         "after": [
           {
             "result": {
-              "duration": 46600,
-              "status": "skipped"
+              "duration": 781961500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -1859,8 +1901,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1276000,
-              "status": "skipped"
+              "duration": 3895248000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270218800,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Melbourne\"",
@@ -1877,8 +1941,8 @@
           },
           {
             "result": {
-              "duration": 1396600,
-              "status": "skipped"
+              "duration": 244380300,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -1895,8 +1959,8 @@
           },
           {
             "result": {
-              "duration": 1175700,
-              "status": "skipped"
+              "duration": 268109900,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -1913,8 +1977,8 @@
           },
           {
             "result": {
-              "duration": 1138000,
-              "status": "skipped"
+              "duration": 199213600,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"2 - Two\"",
@@ -1931,8 +1995,8 @@
           },
           {
             "result": {
-              "duration": 1182500,
-              "status": "skipped"
+              "duration": 62227300,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter check- indate \"26/01/2022\"",
@@ -1949,8 +2013,8 @@
           },
           {
             "result": {
-              "duration": 2365200,
-              "status": "skipped"
+              "duration": 44595400,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter check-outdate \"27/01/2022\"",
@@ -1967,8 +2031,8 @@
           },
           {
             "result": {
-              "duration": 1500300,
-              "status": "skipped"
+              "duration": 149623000,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -1985,8 +2049,8 @@
           },
           {
             "result": {
-              "duration": 1315000,
-              "status": "skipped"
+              "duration": 131849600,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -2003,8 +2067,8 @@
           },
           {
             "result": {
-              "duration": 1999000,
-              "status": "skipped"
+              "duration": 1433980700,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -2015,8 +2079,8 @@
           },
           {
             "result": {
-              "duration": 1210100,
-              "status": "skipped"
+              "duration": 1537918900,
+              "status": "passed"
             },
             "line": 14,
             "name": "click Continue button",
@@ -2027,8 +2091,8 @@
           },
           {
             "result": {
-              "duration": 4680000,
-              "status": "skipped"
+              "duration": 14655547700,
+              "status": "passed"
             },
             "line": 15,
             "name": "fill the details and verify orderno. is generated",
@@ -2065,12 +2129,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.941Z",
+        "start_timestamp": "2022-01-29T20:44:12.698Z",
         "before": [
           {
             "result": {
-              "duration": 46200,
-              "status": "skipped"
+              "duration": 4955738600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -2078,8 +2142,8 @@
           },
           {
             "result": {
-              "duration": 41800,
-              "status": "skipped"
+              "duration": 264995500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -2087,20 +2151,11 @@
           },
           {
             "result": {
-              "duration": 37100,
-              "status": "skipped"
+              "duration": 8747252900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 54800,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -2111,8 +2166,8 @@
         "after": [
           {
             "result": {
-              "duration": 45900,
-              "status": "skipped"
+              "duration": 551646800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -2124,8 +2179,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1222600,
-              "status": "skipped"
+              "duration": 3905581700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253640800,
+              "status": "passed"
             },
             "line": 6,
             "name": "Select and get location \"Sydney\"",
@@ -2138,33 +2215,33 @@
               ],
               "location": "VerifyLocation.select_and_get_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1337700,
-              "status": "skipped"
+              "duration": 258840700,
+              "status": "passed"
             },
             "line": 7,
-            "name": "Choose hotel \"Hotel Creek\"",
+            "name": "Enter hotel \"Hotel Creek\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"Hotel Creek\"",
-                  "offset": 13
+                  "offset": 12
                 }
               ],
-              "location": "VerifyRoomType.choose_hotel(String)"
+              "location": "SelectHotelisdisplayed.enter_hotel(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2276800,
-              "status": "skipped"
+              "duration": 216953100,
+              "status": "passed"
             },
             "line": 8,
-            "name": "select roomtype\"Standard\"",
+            "name": "Choose roomtype\"Standard\"",
             "match": {
               "arguments": [
                 {
@@ -2172,14 +2249,14 @@
                   "offset": 15
                 }
               ],
-              "location": "SelectHotelisdisplayed.select_roomtype(String)"
+              "location": "VerifyRoomType.choose_roomtype(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1219600,
-              "status": "skipped"
+              "duration": 117575000,
+              "status": "passed"
             },
             "line": 9,
             "name": "Choose no-ofrooms \"1 - One\"",
@@ -2196,8 +2273,8 @@
           },
           {
             "result": {
-              "duration": 1263800,
-              "status": "skipped"
+              "duration": 86132500,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter and get check- indate \"26/01/2022\"",
@@ -2214,8 +2291,8 @@
           },
           {
             "result": {
-              "duration": 1220300,
-              "status": "skipped"
+              "duration": 87625500,
+              "status": "passed"
             },
             "line": 11,
             "name": "Enter and get check- outdate \"27/01/2022\"",
@@ -2232,8 +2309,8 @@
           },
           {
             "result": {
-              "duration": 1235600,
-              "status": "skipped"
+              "duration": 117388200,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-adults\"1 - One\"",
@@ -2250,8 +2327,8 @@
           },
           {
             "result": {
-              "duration": 1774600,
-              "status": "skipped"
+              "duration": 122590800,
+              "status": "passed"
             },
             "line": 13,
             "name": "Select No of-children\"0 - None\"",
@@ -2268,8 +2345,8 @@
           },
           {
             "result": {
-              "duration": 1090500,
-              "status": "skipped"
+              "duration": 1464950500,
+              "status": "passed"
             },
             "line": 14,
             "name": "click Search button",
@@ -2280,8 +2357,8 @@
           },
           {
             "result": {
-              "duration": 1180100,
-              "status": "skipped"
+              "duration": 60750200,
+              "status": "passed"
             },
             "line": 15,
             "name": "Verify that hotel displayed is the same as selected in search Hotel form",
@@ -2304,12 +2381,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:30.977Z",
+        "start_timestamp": "2022-01-29T20:44:33.924Z",
         "before": [
           {
             "result": {
-              "duration": 45700,
-              "status": "skipped"
+              "duration": 3658108300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -2317,8 +2394,8 @@
           },
           {
             "result": {
-              "duration": 43200,
-              "status": "skipped"
+              "duration": 240680500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -2326,20 +2403,11 @@
           },
           {
             "result": {
-              "duration": 42600,
-              "status": "skipped"
+              "duration": 6052213700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 41700,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -2350,8 +2418,8 @@
         "after": [
           {
             "result": {
-              "duration": 44800,
-              "status": "skipped"
+              "duration": 654707300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -2363,8 +2431,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1200400,
-              "status": "skipped"
+              "duration": 3851461900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187784900,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Melbourne\"",
@@ -2377,12 +2467,12 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1513600,
-              "status": "skipped"
+              "duration": 199077600,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -2399,8 +2489,8 @@
           },
           {
             "result": {
-              "duration": 2486800,
-              "status": "skipped"
+              "duration": 264000500,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -2417,8 +2507,8 @@
           },
           {
             "result": {
-              "duration": 2279700,
-              "status": "skipped"
+              "duration": 189420100,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"2 - Two\"",
@@ -2435,8 +2525,8 @@
           },
           {
             "result": {
-              "duration": 1368400,
-              "status": "skipped"
+              "duration": 38182100,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter check- indate \"26/01/2022\"",
@@ -2453,8 +2543,8 @@
           },
           {
             "result": {
-              "duration": 1168000,
-              "status": "skipped"
+              "duration": 46734300,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter check-outdate \"27/01/2022\"",
@@ -2471,8 +2561,8 @@
           },
           {
             "result": {
-              "duration": 1208500,
-              "status": "skipped"
+              "duration": 139987300,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -2489,8 +2579,8 @@
           },
           {
             "result": {
-              "duration": 1323700,
-              "status": "skipped"
+              "duration": 144647100,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -2507,8 +2597,8 @@
           },
           {
             "result": {
-              "duration": 1352100,
-              "status": "skipped"
+              "duration": 1182336300,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -2519,8 +2609,8 @@
           },
           {
             "result": {
-              "duration": 1036200,
-              "status": "skipped"
+              "duration": 1687843100,
+              "status": "passed"
             },
             "line": 14,
             "name": "click Continue button",
@@ -2531,8 +2621,8 @@
           },
           {
             "result": {
-              "duration": 1179000,
-              "status": "skipped"
+              "duration": 325570200,
+              "status": "passed"
             },
             "line": 15,
             "name": "Verify the total price excl GST is being calculated as price-pernight*no-ofrooms*no-ofdays",
@@ -2543,8 +2633,8 @@
           },
           {
             "result": {
-              "duration": 1080500,
-              "status": "skipped"
+              "duration": 498525000,
+              "status": "passed"
             },
             "line": 16,
             "name": "Takescreenshot",
@@ -2567,12 +2657,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.019Z",
+        "start_timestamp": "2022-01-29T20:44:53.307Z",
         "before": [
           {
             "result": {
-              "duration": 45900,
-              "status": "skipped"
+              "duration": 3792731000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -2580,8 +2670,8 @@
           },
           {
             "result": {
-              "duration": 40200,
-              "status": "skipped"
+              "duration": 365215700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -2589,20 +2679,11 @@
           },
           {
             "result": {
-              "duration": 39500,
-              "status": "skipped"
+              "duration": 6112957600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 37500,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -2613,8 +2694,8 @@
         "after": [
           {
             "result": {
-              "duration": 587700,
-              "status": "skipped"
+              "duration": 593842900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -2626,10 +2707,32 @@
         "steps": [
           {
             "result": {
-              "duration": 1206000,
-              "status": "skipped"
+              "duration": 3858038700,
+              "status": "passed"
             },
             "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217215600,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "Choose location \"Melbourne\"",
             "match": {
               "arguments": [
@@ -2640,14 +2743,14 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1190600,
-              "status": "skipped"
+              "duration": 198539900,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
             "match": {
               "arguments": [
@@ -2662,10 +2765,10 @@
           },
           {
             "result": {
-              "duration": 1169900,
-              "status": "skipped"
+              "duration": 248169700,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Choose roomtype\"Standard\"",
             "match": {
               "arguments": [
@@ -2680,10 +2783,10 @@
           },
           {
             "result": {
-              "duration": 1160900,
-              "status": "skipped"
+              "duration": 176324400,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Choose no-ofrooms \"2 - Two\"",
             "match": {
               "arguments": [
@@ -2698,10 +2801,10 @@
           },
           {
             "result": {
-              "duration": 1646100,
-              "status": "skipped"
+              "duration": 37732200,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Enter check- indate \"26/01/2022\"",
             "match": {
               "arguments": [
@@ -2716,10 +2819,10 @@
           },
           {
             "result": {
-              "duration": 2200200,
-              "status": "skipped"
+              "duration": 50790400,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Enter check-outdate \"27/01/2022\"",
             "match": {
               "arguments": [
@@ -2734,10 +2837,10 @@
           },
           {
             "result": {
-              "duration": 1187600,
-              "status": "skipped"
+              "duration": 208617500,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Select No of-adults\"1 - One\"",
             "match": {
               "arguments": [
@@ -2752,10 +2855,10 @@
           },
           {
             "result": {
-              "duration": 1199900,
-              "status": "skipped"
+              "duration": 138847800,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Select No of-children\"0 - None\"",
             "match": {
               "arguments": [
@@ -2770,10 +2873,10 @@
           },
           {
             "result": {
-              "duration": 1137600,
-              "status": "skipped"
+              "duration": 1292400200,
+              "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "click Search button",
             "match": {
               "location": "VerifyRoomType.click_Search_button()"
@@ -2782,10 +2885,10 @@
           },
           {
             "result": {
-              "duration": 1110900,
-              "status": "skipped"
+              "duration": 1656324900,
+              "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "click Continue button",
             "match": {
               "location": "VerifyRoomType.click_Continue_button()"
@@ -2794,10 +2897,10 @@
           },
           {
             "result": {
-              "duration": 4726400,
-              "status": "skipped"
+              "duration": 8572445700,
+              "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "fill the details and verify orderno. is generated",
             "match": {
               "location": "OrdernoGenerated.fill_the_details_and_verify_orderno_is_generated(DataTable)"
@@ -2820,10 +2923,10 @@
           },
           {
             "result": {
-              "duration": 2794100,
-              "status": "skipped"
+              "duration": 3065971200,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "Click on My itinerary button",
             "match": {
               "location": "BookedItineraryInfo.Click_on_My_itinerary_button()"
@@ -2832,10 +2935,10 @@
           },
           {
             "result": {
-              "duration": 1243700,
-              "status": "skipped"
+              "duration": 2067690600,
+              "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "Enter the orderid\"1T6HBM06YF\"",
             "match": {
               "arguments": [
@@ -2850,10 +2953,10 @@
           },
           {
             "result": {
-              "duration": 1176100,
-              "status": "skipped"
+              "duration": 261437500,
+              "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "Verify that the relevant details are displayed",
             "match": {
               "location": "OrderidQuery.verify_that_the_relevant_details_are_displayed()"
@@ -2862,10 +2965,10 @@
           },
           {
             "result": {
-              "duration": 1178300,
-              "status": "skipped"
+              "duration": 319047700,
+              "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "Takescreenshot",
             "match": {
               "location": "TotalBill.takescreenshot()"
@@ -2886,12 +2989,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.071Z",
+        "start_timestamp": "2022-01-29T20:45:26.552Z",
         "before": [
           {
             "result": {
-              "duration": 51500,
-              "status": "skipped"
+              "duration": 4273318600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -2899,8 +3002,8 @@
           },
           {
             "result": {
-              "duration": 67900,
-              "status": "skipped"
+              "duration": 347805900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -2908,20 +3011,11 @@
           },
           {
             "result": {
-              "duration": 56000,
-              "status": "skipped"
+              "duration": 7300816700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 51200,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -2932,8 +3026,8 @@
         "after": [
           {
             "result": {
-              "duration": 76100,
-              "status": "skipped"
+              "duration": 627485700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -2945,8 +3039,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1244300,
-              "status": "skipped"
+              "duration": 3898000100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243128600,
+              "status": "passed"
             },
             "line": 5,
             "name": "Select and get location \"Sydney\"",
@@ -2963,8 +3079,8 @@
           },
           {
             "result": {
-              "duration": 1192300,
-              "status": "skipped"
+              "duration": 196445000,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -2981,8 +3097,8 @@
           },
           {
             "result": {
-              "duration": 1180500,
-              "status": "skipped"
+              "duration": 225373800,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -2999,8 +3115,8 @@
           },
           {
             "result": {
-              "duration": 1169000,
-              "status": "skipped"
+              "duration": 116092600,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"1 - One\"",
@@ -3017,8 +3133,8 @@
           },
           {
             "result": {
-              "duration": 1133400,
-              "status": "skipped"
+              "duration": 39985800,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter check- indate \"25/01/2022\"",
@@ -3035,8 +3151,8 @@
           },
           {
             "result": {
-              "duration": 1186500,
-              "status": "skipped"
+              "duration": 42319100,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter check-outdate \"26/01/2022\"",
@@ -3053,8 +3169,8 @@
           },
           {
             "result": {
-              "duration": 1747700,
-              "status": "skipped"
+              "duration": 113724700,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -3071,8 +3187,8 @@
           },
           {
             "result": {
-              "duration": 1190100,
-              "status": "skipped"
+              "duration": 178344200,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -3089,8 +3205,8 @@
           },
           {
             "result": {
-              "duration": 1079600,
-              "status": "skipped"
+              "duration": 1519349200,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -3101,8 +3217,8 @@
           },
           {
             "result": {
-              "duration": 1286900,
-              "status": "skipped"
+              "duration": 69036900,
+              "status": "passed"
             },
             "line": 14,
             "name": "Verify locations in Select Hotel page and location selected in Search Hotel are same",
@@ -3125,12 +3241,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.178Z",
+        "start_timestamp": "2022-01-29T20:45:45.773Z",
         "before": [
           {
             "result": {
-              "duration": 47000,
-              "status": "skipped"
+              "duration": 3389495800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -3138,8 +3254,8 @@
           },
           {
             "result": {
-              "duration": 56000,
-              "status": "skipped"
+              "duration": 320811900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -3147,20 +3263,11 @@
           },
           {
             "result": {
-              "duration": 52900,
-              "status": "skipped"
+              "duration": 5454053500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 42000,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -3171,8 +3278,8 @@
         "after": [
           {
             "result": {
-              "duration": 53700,
-              "status": "skipped"
+              "duration": 4398275200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -3184,8 +3291,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1619400,
-              "status": "skipped"
+              "duration": 3691059500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199076600,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Sydney\"",
@@ -3198,12 +3327,12 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1526200,
-              "status": "skipped"
+              "duration": 190747500,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -3220,8 +3349,8 @@
           },
           {
             "result": {
-              "duration": 1130600,
-              "status": "skipped"
+              "duration": 232361500,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -3238,8 +3367,8 @@
           },
           {
             "result": {
-              "duration": 1150600,
-              "status": "skipped"
+              "duration": 111603400,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"1 - One\"",
@@ -3256,8 +3385,8 @@
           },
           {
             "result": {
-              "duration": 1129100,
-              "status": "skipped"
+              "duration": 44605000,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter check- indate \"25/01/2022\"",
@@ -3274,8 +3403,8 @@
           },
           {
             "result": {
-              "duration": 1120600,
-              "status": "skipped"
+              "duration": 39835200,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter check-outdate \"26/01/2022\"",
@@ -3292,8 +3421,8 @@
           },
           {
             "result": {
-              "duration": 2418300,
-              "status": "skipped"
+              "duration": 120438800,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -3310,8 +3439,8 @@
           },
           {
             "result": {
-              "duration": 1144200,
-              "status": "skipped"
+              "duration": 168657900,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -3328,8 +3457,8 @@
           },
           {
             "result": {
-              "duration": 1085800,
-              "status": "skipped"
+              "duration": 1219865400,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -3340,8 +3469,8 @@
           },
           {
             "result": {
-              "duration": 1075700,
-              "status": "skipped"
+              "duration": 3460248800,
+              "status": "passed"
             },
             "line": 14,
             "name": "click Continue button",
@@ -3352,8 +3481,8 @@
           },
           {
             "result": {
-              "duration": 1053800,
-              "status": "skipped"
+              "duration": 1919877100,
+              "status": "passed"
             },
             "line": 15,
             "name": "enter the details and click on book now",
@@ -3364,8 +3493,8 @@
           },
           {
             "result": {
-              "duration": 1221600,
-              "status": "skipped"
+              "duration": 7086563000,
+              "status": "passed"
             },
             "line": 16,
             "name": "check the details, click on logout and verify if we have logged out from the application",
@@ -3388,12 +3517,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.230Z",
+        "start_timestamp": "2022-01-29T20:46:17.842Z",
         "before": [
           {
             "result": {
-              "duration": 51700,
-              "status": "skipped"
+              "duration": 3712123300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -3401,8 +3530,8 @@
           },
           {
             "result": {
-              "duration": 53000,
-              "status": "skipped"
+              "duration": 269227200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -3410,20 +3539,11 @@
           },
           {
             "result": {
-              "duration": 58200,
-              "status": "skipped"
+              "duration": 5386603400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 50800,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -3434,8 +3554,8 @@
         "after": [
           {
             "result": {
-              "duration": 54100,
-              "status": "skipped"
+              "duration": 559612100,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -3447,8 +3567,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1377700,
-              "status": "skipped"
+              "duration": 4158233500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188369900,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Sydney\"",
@@ -3461,12 +3603,12 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1138100,
-              "status": "skipped"
+              "duration": 198717400,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -3483,8 +3625,8 @@
           },
           {
             "result": {
-              "duration": 1197000,
-              "status": "skipped"
+              "duration": 252058200,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -3501,26 +3643,26 @@
           },
           {
             "result": {
-              "duration": 2015200,
-              "status": "skipped"
+              "duration": 168217100,
+              "status": "passed"
             },
             "line": 8,
-            "name": "Select no-ofrooms \"1 - One\"",
+            "name": "Enter no-ofrooms \"1 - One\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"1 - One\"",
-                  "offset": 18
+                  "offset": 17
                 }
               ],
-              "location": "VerifyNoofRooms.select_no_ofrooms(String)"
+              "location": "VerifyNoofRooms.enter_no_ofrooms(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1075200,
-              "status": "skipped"
+              "duration": 1295080200,
+              "status": "passed"
             },
             "line": 9,
             "name": "click Search button",
@@ -3531,8 +3673,8 @@
           },
           {
             "result": {
-              "duration": 1077200,
-              "status": "skipped"
+              "duration": 1370347100,
+              "status": "passed"
             },
             "line": 10,
             "name": "click Continue button",
@@ -3543,8 +3685,8 @@
           },
           {
             "result": {
-              "duration": 1091600,
-              "status": "skipped"
+              "duration": 67689300,
+              "status": "passed"
             },
             "line": 11,
             "name": "Verify that no. of rooms reflected according to the no. of rooms selected in search hotel page",
@@ -3567,12 +3709,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.260Z",
+        "start_timestamp": "2022-01-29T20:46:35.483Z",
         "before": [
           {
             "result": {
-              "duration": 50500,
-              "status": "skipped"
+              "duration": 3016264000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -3580,8 +3722,8 @@
           },
           {
             "result": {
-              "duration": 43600,
-              "status": "skipped"
+              "duration": 681552200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -3589,20 +3731,11 @@
           },
           {
             "result": {
-              "duration": 49600,
-              "status": "skipped"
+              "duration": 5868744200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 44300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -3613,8 +3746,8 @@
         "after": [
           {
             "result": {
-              "duration": 53300,
-              "status": "skipped"
+              "duration": 610099100,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -3626,8 +3759,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1219300,
-              "status": "skipped"
+              "duration": 3925060800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191402000,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Sydney\"",
@@ -3640,12 +3795,12 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2470900,
-              "status": "skipped"
+              "duration": 201072400,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -3662,8 +3817,8 @@
           },
           {
             "result": {
-              "duration": 1166600,
-              "status": "skipped"
+              "duration": 237304500,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -3680,8 +3835,8 @@
           },
           {
             "result": {
-              "duration": 1109000,
-              "status": "skipped"
+              "duration": 116073800,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"1 - One\"",
@@ -3698,8 +3853,8 @@
           },
           {
             "result": {
-              "duration": 1117900,
-              "status": "skipped"
+              "duration": 43656300,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter check- indate \"25/01/2022\"",
@@ -3716,8 +3871,8 @@
           },
           {
             "result": {
-              "duration": 1800200,
-              "status": "skipped"
+              "duration": 37091800,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter check-outdate \"26/01/2022\"",
@@ -3734,8 +3889,8 @@
           },
           {
             "result": {
-              "duration": 44929900,
-              "status": "skipped"
+              "duration": 118389000,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -3752,8 +3907,8 @@
           },
           {
             "result": {
-              "duration": 1160100,
-              "status": "skipped"
+              "duration": 217545300,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -3770,8 +3925,8 @@
           },
           {
             "result": {
-              "duration": 1875000,
-              "status": "skipped"
+              "duration": 1611113600,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -3782,8 +3937,8 @@
           },
           {
             "result": {
-              "duration": 1166000,
-              "status": "skipped"
+              "duration": 2137489500,
+              "status": "passed"
             },
             "line": 14,
             "name": "click Continue button",
@@ -3794,8 +3949,8 @@
           },
           {
             "result": {
-              "duration": 2026900,
-              "status": "skipped"
+              "duration": 234120700,
+              "status": "passed"
             },
             "line": 15,
             "name": "Verify the total price excl GST is being calculated as price-pernight*no-ofrooms*no-ofdays",
@@ -3818,12 +3973,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.348Z",
+        "start_timestamp": "2022-01-29T20:46:54.748Z",
         "before": [
           {
             "result": {
-              "duration": 80200,
-              "status": "skipped"
+              "duration": 4102382200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -3831,8 +3986,8 @@
           },
           {
             "result": {
-              "duration": 86300,
-              "status": "skipped"
+              "duration": 165738300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -3840,20 +3995,11 @@
           },
           {
             "result": {
-              "duration": 66200,
-              "status": "skipped"
+              "duration": 6495986800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 46000,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -3864,8 +4010,8 @@
         "after": [
           {
             "result": {
-              "duration": 98000,
-              "status": "skipped"
+              "duration": 4370718400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -3877,8 +4023,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1174000,
-              "status": "skipped"
+              "duration": 3840643100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196292300,
+              "status": "passed"
             },
             "line": 5,
             "name": "Choose location \"Sydney\"",
@@ -3891,12 +4059,12 @@
               ],
               "location": "VerifyRoomType.choose_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2064300,
-              "status": "skipped"
+              "duration": 181877300,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -3913,8 +4081,8 @@
           },
           {
             "result": {
-              "duration": 1137100,
-              "status": "skipped"
+              "duration": 231882100,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -3931,8 +4099,8 @@
           },
           {
             "result": {
-              "duration": 1121800,
-              "status": "skipped"
+              "duration": 116410900,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"1 - One\"",
@@ -3949,8 +4117,8 @@
           },
           {
             "result": {
-              "duration": 5289000,
-              "status": "skipped"
+              "duration": 1130023300,
+              "status": "passed"
             },
             "line": 9,
             "name": "click Search button",
@@ -3961,8 +4129,8 @@
           },
           {
             "result": {
-              "duration": 1281700,
-              "status": "skipped"
+              "duration": 1282676400,
+              "status": "passed"
             },
             "line": 10,
             "name": "click Continue button",
@@ -3973,8 +4141,8 @@
           },
           {
             "result": {
-              "duration": 3083000,
-              "status": "skipped"
+              "duration": 117241000,
+              "status": "passed"
             },
             "line": 11,
             "name": "Verify that room type reflected is the same as selected in search hotel page",
@@ -3997,12 +4165,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.450Z",
+        "start_timestamp": "2022-01-29T20:47:17.028Z",
         "before": [
           {
             "result": {
-              "duration": 46900,
-              "status": "skipped"
+              "duration": 3469150800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -4010,8 +4178,8 @@
           },
           {
             "result": {
-              "duration": 50200,
-              "status": "skipped"
+              "duration": 249504300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -4019,20 +4187,11 @@
           },
           {
             "result": {
-              "duration": 30900,
-              "status": "skipped"
+              "duration": 9283333500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 35500,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -4043,8 +4202,8 @@
         "after": [
           {
             "result": {
-              "duration": 40200,
-              "status": "skipped"
+              "duration": 593489700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -4056,20 +4215,42 @@
         "steps": [
           {
             "result": {
-              "duration": 1059100,
-              "status": "skipped"
+              "duration": 3746274100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25733900,
+              "status": "passed"
             },
             "line": 5,
             "name": "Verify that title of each page is the same as the page objective",
             "match": {
               "location": "VerifyTitleofEveryPage.verify_that_title_of_each_page_is_the_same_as_the_page_objective()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1027900,
-              "status": "skipped"
+              "duration": 2112959500,
+              "status": "passed"
             },
             "line": 6,
             "name": "Click on Search hotel option and verify whether application directs to search hotel form",
@@ -4080,8 +4261,8 @@
           },
           {
             "result": {
-              "duration": 1017200,
-              "status": "skipped"
+              "duration": 1353173600,
+              "status": "passed"
             },
             "line": 7,
             "name": "Click on booked itinerary button and verify that application directs to booked itinerary form",
@@ -4104,12 +4285,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-28T14:07:31.467Z",
+        "start_timestamp": "2022-01-29T20:47:37.876Z",
         "before": [
           {
             "result": {
-              "duration": 46200,
-              "status": "skipped"
+              "duration": 3670669500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.chromeExecution()"
@@ -4117,8 +4298,8 @@
           },
           {
             "result": {
-              "duration": 52900,
-              "status": "skipped"
+              "duration": 205459500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.maximizeWindow()"
@@ -4126,20 +4307,11 @@
           },
           {
             "result": {
-              "duration": 38800,
-              "status": "skipped"
+              "duration": 5773262100,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.Urllaunch()"
-            }
-          },
-          {
-            "result": {
-              "duration": 51000,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.login()"
             }
           }
         ],
@@ -4150,8 +4322,8 @@
         "after": [
           {
             "result": {
-              "duration": 47400,
-              "status": "skipped"
+              "duration": 722727800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterExecution()"
@@ -4163,8 +4335,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1220700,
-              "status": "skipped"
+              "duration": 3822368200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application username\"bharathkanna\" and password\"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathkanna\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Bookingfeature.login_to_the_application_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248525700,
+              "status": "passed"
             },
             "line": 5,
             "name": "Select and get location \"Sydney\"",
@@ -4177,12 +4371,12 @@
               ],
               "location": "VerifyLocation.select_and_get_location(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1946200,
-              "status": "skipped"
+              "duration": 198122600,
+              "status": "passed"
             },
             "line": 6,
             "name": "Choose hotel \"Hotel Creek\"",
@@ -4199,8 +4393,8 @@
           },
           {
             "result": {
-              "duration": 1168900,
-              "status": "skipped"
+              "duration": 239231600,
+              "status": "passed"
             },
             "line": 7,
             "name": "Choose roomtype\"Standard\"",
@@ -4217,8 +4411,8 @@
           },
           {
             "result": {
-              "duration": 2101100,
-              "status": "skipped"
+              "duration": 119430200,
+              "status": "passed"
             },
             "line": 8,
             "name": "Choose no-ofrooms \"1 - One\"",
@@ -4235,8 +4429,8 @@
           },
           {
             "result": {
-              "duration": 2139000,
-              "status": "skipped"
+              "duration": 82200800,
+              "status": "passed"
             },
             "line": 9,
             "name": "Enter and get check- indate \"26/01/2022\"",
@@ -4253,8 +4447,8 @@
           },
           {
             "result": {
-              "duration": 1181500,
-              "status": "skipped"
+              "duration": 81232600,
+              "status": "passed"
             },
             "line": 10,
             "name": "Enter and get check- outdate \"27/01/2022\"",
@@ -4271,8 +4465,8 @@
           },
           {
             "result": {
-              "duration": 1204300,
-              "status": "skipped"
+              "duration": 112188400,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select No of-adults\"1 - One\"",
@@ -4289,8 +4483,8 @@
           },
           {
             "result": {
-              "duration": 1219600,
-              "status": "skipped"
+              "duration": 117565700,
+              "status": "passed"
             },
             "line": 12,
             "name": "Select No of-children\"0 - None\"",
@@ -4307,8 +4501,8 @@
           },
           {
             "result": {
-              "duration": 1130800,
-              "status": "skipped"
+              "duration": 1326646000,
+              "status": "passed"
             },
             "line": 13,
             "name": "click Search button",
@@ -4319,8 +4513,8 @@
           },
           {
             "result": {
-              "duration": 1934400,
-              "status": "skipped"
+              "duration": 183571300,
+              "status": "passed"
             },
             "line": 14,
             "name": "Verify that check-in-date and check-out-dates are the same as selected in search hotel form.",

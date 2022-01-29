@@ -2,10 +2,10 @@
 Feature: To verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel
 
   Scenario:  To validate by select location and verify
-
-		When Select and get location "Sydney"
-		And Choose hotel "Hotel Creek"
-		And select roomtype"Standard"
+		When Login to the application username"bharathkanna" and password"12345678"
+		And Select and get location "Sydney"
+		And Enter hotel "Hotel Creek"
+		And Choose roomtype"Standard"
 		And Choose no-ofrooms "1 - One"
 		And Enter and get check- indate "26/01/2022"  
 	  And Enter and get check- outdate "27/01/2022"

@@ -1,7 +1,8 @@
 Feature: To verify whether the check-out date field accepts a later date than check-in date.
 
 	Scenario: To validate by sending invalid date in check-in and valid check-out date
-	When Choose location "Sydney"
+	When Login to the application username"bharathkanna" and password"12345678"
+	And Choose location "Sydney"
 	And Choose hotel "Hotel Creek"
 	And Choose roomtype"Standard"
 	And Choose no-ofrooms "1 - One"

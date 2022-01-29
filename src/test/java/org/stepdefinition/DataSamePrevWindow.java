@@ -63,7 +63,6 @@ public class DataSamePrevWindow extends BaseClass {
 		Book_A_Hotel bookhotel=new Book_A_Hotel();
 		WebElement locationsearch=bookhotel.getLocation();
 		String printedlocation=locationsearch.getAttribute("value");
-		System.out.println(printedlocation);
 		Assert.assertEquals("Both are same", getlocation, printedlocation);
 		
 		
@@ -96,7 +95,6 @@ public class DataSamePrevWindow extends BaseClass {
 		WebElement price=bookhotel.getPricepernight();
 		String pricepernight=price.getAttribute("value");
 		String[] pricestring=pricepernight.split(" ");
-		System.out.println(pricestring[2]);
 		int k=Integer.parseInt(pricestring[2]);
 	
 		

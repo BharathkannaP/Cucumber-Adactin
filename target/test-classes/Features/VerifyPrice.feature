@@ -1,8 +1,8 @@
 Feature: To verify whether the total price (excl.GST ) is calculated as “price per night * no. of nights* no of rooms”.
 
 Scenario:  To validate by select Room Type and verify
-
-	When Choose location "Sydney"
+	When Login to the application username"bharathkanna" and password"12345678"
+	And Choose location "Sydney"
 	And Choose hotel "Hotel Creek"
 	And Choose roomtype"Standard"
 	And Choose no-ofrooms "1 - One"

@@ -1,7 +1,7 @@
 Feature: Verify Order number is generated in booking confirmation page
 
   Scenario: Verify ORDER no should be generated
-
+	When Login to the application username"bharathkanna" and password"12345678"
 	And Choose location "Melbourne"
 	And Choose hotel "Hotel Creek"
 	And Choose roomtype"Standard"

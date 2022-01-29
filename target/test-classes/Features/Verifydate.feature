@@ -1,8 +1,8 @@
 Feature: To verify date and Check Outdate are being displayed in Select Hotel Page according to the dates selected in search Hotel
  
   Scenario:  Verify date in Select Hotel page and location selected in Search Hotel are same
-		
-		When Select and get location "Sydney"
+		When Login to the application username"bharathkanna" and password"12345678"
+		And Select and get location "Sydney"
 		And Choose hotel "Hotel Creek"
 		And Choose roomtype"Standard"
 		And Choose no-ofrooms "1 - One"

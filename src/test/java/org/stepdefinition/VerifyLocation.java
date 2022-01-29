@@ -53,7 +53,6 @@ public class VerifyLocation  extends BaseClass {
 		Select_Hotel_Next select=new Select_Hotel_Next();
 		WebElement locationsearch=select.getLocation();
 		String printedlocation=locationsearch.getAttribute("value");
-		System.out.println(printedlocation);
 		Assert.assertEquals("Both are same", getlocation, printedlocation);
 		
 	}
