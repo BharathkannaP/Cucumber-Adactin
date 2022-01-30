@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\resources\\Features",
 				 glue="org.stepdefinition",
 				 dryRun=false,
-				 plugin= {"html:target/Report","junit:target\\junit.xml","json:JsonReport\\json.rep.json"}
+				 plugin= {"pretty","html:target/Report","junit:target\\junit.xml","json:JsonReport\\json.rep.json"}
 )
 
 public class TestRunner {
